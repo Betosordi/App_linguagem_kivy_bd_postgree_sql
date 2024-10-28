@@ -38,10 +38,10 @@ caminho_imagem = get_resource_path('imagem_logo.png')
 
 # Configurações do banco de dados
 DB_PARAMS = {
-    'dbname': 'Monitoramento_Producao',
+    'dbname': 'Nome_da_tabela_no_postgree',
     'user': 'postgres',
-    'password': 'Analista#2024',
-    'host': '192.168.10.253',
+    'password': 'Sua_senha',
+    'host': 'O_seu_host_local_ou_ip',# No caso o IP do pc onde esta instalado o Postgree
     'port': '5432'
 }
 
